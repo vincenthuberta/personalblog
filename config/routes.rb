@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'posts/_new_post'
+
+  get 'posts/_edit_post'
+
   get 'sessions/new'
 
   get 'users/new'
